@@ -1,0 +1,22 @@
+/* JAVA PROGRAM TO COUNT VOWELS AND CONSONANTS IN STRING */
+
+import java.util.scanner;
+
+public class Main {
+    public static void main(String[] args) {
+     
+     Scanner sc=new Scanner(System.in);
+     String s=sc.next();
+    char ch[]=s.toCharArray();
+    int vowel=0;
+    int consonant=0;
+    for(int i=0;i<ch.length;i++){
+      if(ch[i]=='a' || ch[i]=='e'|| ch[i]=='i'|| ch[i]=='o'|| ch[i]=='u'|| ch[i]=='A'|| ch[i]=='E'|| ch[i]=='I'|| ch[i]=='O'|| ch[i]=='U')
+        vowel++;
+        else
+        consonant++;
+    }
+    System.out.println(vowel);
+    System.out.println(consonant);
+    }
+}
