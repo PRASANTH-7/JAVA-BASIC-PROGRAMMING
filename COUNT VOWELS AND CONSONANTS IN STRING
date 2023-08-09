@@ -8,15 +8,15 @@ public class Main {
      Scanner sc=new Scanner(System.in);
      String s=sc.next();
     char ch[]=s.toCharArray();
-    int vowel=0;
-    int consonant=0;
+    int vowel__count=0;
+    int consonant_count=0;
     for(int i=0;i<ch.length;i++){
       if(ch[i]=='a' || ch[i]=='e'|| ch[i]=='i'|| ch[i]=='o'|| ch[i]=='u'|| ch[i]=='A'|| ch[i]=='E'|| ch[i]=='I'|| ch[i]=='O'|| ch[i]=='U')
-        vowel++;
+        vowel_count++;
         else
-        consonant++;
+        consonant_count++;
     }
-    System.out.println(vowel);
-    System.out.println(consonant);
+    System.out.println(vowel_count);
+    System.out.println(consonant_count);
     }
 }
