@@ -1,7 +1,7 @@
 /* JAVA PROGRAM TO FIND AREA OF CIRCLE */
 
 import java.util.*;
-public class Main {
+public class AREA_OF_CIRCLE {
 
   public static void main(String[]args){
   
