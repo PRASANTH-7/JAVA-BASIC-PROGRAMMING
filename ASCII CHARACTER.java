@@ -1,7 +1,7 @@
 /* JAVA PROGRAM TO PRINT ASCII CHARACTER FOR NUMBER */
 
 import java.util.Scanner;
-public class Ascii_value_for_number
+public class Ascii_character
 {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
