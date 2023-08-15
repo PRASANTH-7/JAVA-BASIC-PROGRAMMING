@@ -2,7 +2,7 @@
 
 import java.util.scanner;
 
-public class Main {
+public class AGE TO NUMBER OF DAYS {
     public static void main(String[] args) {
       Scanner sc=new Scanner(System.in);
       int age=sc.nextInt();
