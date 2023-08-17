@@ -1,7 +1,7 @@
 /* JAVA PROGRAM TO CHECK THE PERFECT NUMBER */
 
 import java.util.Scanner;
-public class Main{
+public class PERFECTNUMBER{
 public static void main(String[]args){
 Scanner sc=new Scanner(System.in);
 
