@@ -1,6 +1,6 @@
 /* JAVA PROGRAM TO CONVERT AGE INTO DAYS */
 
-import java.util.scanner;
+import java.util.Scanner;
 
 public class AGE_TO_NUMBER_OF_DAYS {
     public static void main(String[] args) {
