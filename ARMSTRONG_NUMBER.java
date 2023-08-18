@@ -1,6 +1,6 @@
 /* JAVA PROGRAM TO PRINT ARMSTRONG NUMBER */
 
-import java.util.scanner;
+import java.util.Scanner;
 
 public class Armstrong_Number {
     public static void main(String[] args) {
